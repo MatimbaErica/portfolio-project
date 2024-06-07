@@ -1,0 +1,14 @@
+backgound{
+    color: blanchedalmond;
+}
+h1,p{
+
+}
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
