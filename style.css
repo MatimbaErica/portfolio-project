@@ -1,12 +1,53 @@
-backgound{
-    color: blanchedalmond;
+:root {
+  background: #f9f7fe;
+  --branding-color: var();
 }
 
-
+backgound {
+  color: blanchedalmond;
+}
 
 .playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: italic;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn-branding {
+  background-color: #6c65ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 24px;
+  padding: 12px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
